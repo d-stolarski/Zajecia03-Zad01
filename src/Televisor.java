@@ -1,6 +1,11 @@
 public class Televisor {
     boolean isOnOrOff;
 
+
+    Televisor() {
+        isOnOrOff = false;
+    }
+
     void turnOn() {
         isOnOrOff = true;
     }
